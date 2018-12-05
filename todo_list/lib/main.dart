@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_list/main.view.dart';
+import 'main.viewmodel.dart';
 
 void main() => runApp(MyApp());
 
