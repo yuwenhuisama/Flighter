@@ -9,6 +9,9 @@ class MyHomePage extends StatefulViewBase<MainViewModel> {
   final String title;
 
   @override
+  MainViewModel get viewmodel => mainViewModel;
+
+  @override
   Widget build(BuildContext context) {
     var viewmodel = this.viewmodel;
 
@@ -37,7 +40,4 @@ class MyHomePage extends StatefulViewBase<MainViewModel> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
-
-  @override
-  MainViewModel get viewmodel => mainViewModel;
 }
